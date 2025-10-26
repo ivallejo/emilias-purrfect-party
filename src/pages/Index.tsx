@@ -1,6 +1,8 @@
 import { Button } from '@/components/ui/button';
 import { Sparkles } from 'lucide-react';
 import heroIllustration from '@/assets/hero-illustration.png';
+import cityBackground from '@/assets/city-background.png';
+import gabbyCharacter from '@/assets/gabby-character.png';
 import Countdown from '@/components/Countdown';
 import EventDetails from '@/components/EventDetails';
 import Activities from '@/components/Activities';
@@ -31,7 +33,15 @@ const Index = () => {
       <FloatingBalloons />
 
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center bg-gradient-hero relative z-10 px-4 py-20">
+      <section 
+        className="min-h-screen flex items-center justify-center relative z-10 px-4 py-20"
+        style={{
+          backgroundImage: `url(${cityBackground})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
         <div className="max-w-6xl mx-auto text-center">
           <div className="mb-8 animate-bounce-in">
             <Sparkles className="w-16 h-16 mx-auto text-accent animate-wiggle" />
@@ -77,6 +87,22 @@ const Index = () => {
 
       {/* Activities */}
       <Activities />
+
+      {/* Gabby Character Section */}
+      <section className="py-12 px-4 bg-gradient-magical relative z-10">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="animate-bounce-in">
+            <img 
+              src={gabbyCharacter} 
+              alt="Gabby" 
+              className="w-64 md:w-80 mx-auto animate-float"
+            />
+            <p className="text-2xl md:text-3xl font-bold text-white mt-6 font-heading">
+              ¡Gabby te invita a celebrar! 🎉
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Photo Gallery */}
       <PhotoGallery />
