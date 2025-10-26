@@ -37,7 +37,7 @@ const Index = () => {
             <Sparkles className="w-16 h-16 mx-auto text-accent animate-wiggle" />
           </div>
           
-          <h1 className="text-6xl md:text-8xl font-bold mb-6 text-gradient animate-bounce-in">
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 text-rainbow animate-bounce-in">
             🎀 {BIRTHDAY_GIRL.name}'s {BIRTHDAY_GIRL.age}th Birthday! 🎀
           </h1>
           
