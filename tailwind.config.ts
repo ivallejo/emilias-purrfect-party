@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        heading: ['Baloo 2', 'cursive'],
-        body: ['Nunito', 'sans-serif'],
+        heading: ['GabbysDollhouseRegular', 'Baloo 2', 'cursive'],
+        body: ['GabbysDollhouseRegular', 'Nunito', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

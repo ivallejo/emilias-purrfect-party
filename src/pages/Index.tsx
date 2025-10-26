@@ -33,15 +33,7 @@ const Index = () => {
       <FloatingBalloons />
 
       {/* Hero Section */}
-      <section 
-        className="min-h-screen flex items-center justify-center relative z-10 px-4 py-20"
-        style={{
-          backgroundImage: `url(${cityBackground})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
-        }}
-      >
+      <section className="min-h-screen flex items-center justify-center bg-gradient-hero relative z-10 px-4 py-20">
         <div className="max-w-6xl mx-auto text-center">
           <div className="mb-8 animate-bounce-in">
             <Sparkles className="w-16 h-16 mx-auto text-accent animate-wiggle" />

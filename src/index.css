@@ -6,11 +6,19 @@
 All colors MUST be HSL.
 */
 
+@font-face {
+  font-family: 'GabbysDollhouseRegular';
+  src: url('/fonts/GabbysDollhouseFontRegular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer base {
   :root {
     /* Gabby's Dollhouse inspired color palette */
     --background: 326 100% 95%; /* Pink pastel */
-    --foreground: 278 37% 26%; /* Deep purple */
+    --foreground: 0 0% 0%; /* Black */
 
     --card: 0 0% 100%;
     --card-foreground: 278 37% 26%;
@@ -44,7 +52,7 @@ All colors MUST be HSL.
     --radius: 2rem;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(180deg, hsl(326 100% 95%) 0%, hsl(195 82% 85%) 100%);
+    --gradient-hero: linear-gradient(176deg, hsl(287 84% 67%) 0%, hsl(184 93% 38%) 14%, hsl(154 80% 72%) 34.5%, hsl(194 100% 71%) 51%, hsl(217 100% 73%) 63%, hsl(251 65% 60%) 73%, hsl(251 71% 53%) 91.5%);
     --gradient-footer: linear-gradient(180deg, hsl(326 100% 95%) 0%, hsl(163 76% 83%) 100%);
     --gradient-card: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(326 100% 98%) 100%);
     --gradient-gallery: linear-gradient(180deg, hsl(280 70% 65%) 0%, hsl(180 70% 60%) 100%);
