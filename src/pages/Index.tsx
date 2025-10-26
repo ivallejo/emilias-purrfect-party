@@ -4,6 +4,7 @@ import heroIllustration from '@/assets/hero-illustration.png';
 import Countdown from '@/components/Countdown';
 import EventDetails from '@/components/EventDetails';
 import Activities from '@/components/Activities';
+import PhotoGallery from '@/components/PhotoGallery';
 import RSVPForm from '@/components/RSVPForm';
 import FloatingConfetti from '@/components/FloatingConfetti';
 import FloatingBalloons from '@/components/FloatingBalloons';
@@ -76,6 +77,9 @@ const Index = () => {
 
       {/* Activities */}
       <Activities />
+
+      {/* Photo Gallery */}
+      <PhotoGallery />
 
       {/* RSVP Form */}
       <RSVPForm />

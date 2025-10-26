@@ -59,6 +59,8 @@ export default {
         'gradient-hero': 'var(--gradient-hero)',
         'gradient-footer': 'var(--gradient-footer)',
         'gradient-card': 'var(--gradient-card)',
+        'gradient-gallery': 'var(--gradient-gallery)',
+        'gradient-magical': 'var(--gradient-magical)',
       },
       boxShadow: {
         'soft': 'var(--shadow-soft)',
